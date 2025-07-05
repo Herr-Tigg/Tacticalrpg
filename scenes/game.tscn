@@ -1,0 +1,183 @@
+[gd_scene load_steps=3 format=3 uid="uid://be00dk522i8r4"]
+
+[ext_resource type="Script" uid="uid://ciuq545frnsvt" path="res://scripts/game_manager.gd" id="1_uwrxv"]
+[ext_resource type="PackedScene" uid="uid://bxqsrjixg6oi7" path="res://scenes/gridtile.tscn" id="2_yqjtg"]
+
+[node name="Game" type="Node2D"]
+
+[node name="GameManager" type="Node" parent="."]
+unique_name_in_owner = true
+script = ExtResource("1_uwrxv")
+
+[node name="Grid" type="Node" parent="."]
+
+[node name="GridTile" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(0, 32)
+
+[node name="GridTile16" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(48, 64)
+
+[node name="GridTile17" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(48, 0)
+
+[node name="GridTile18" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(48, -64)
+
+[node name="GridTile19" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(48, 128)
+
+[node name="GridTile20" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(96, 96)
+
+[node name="GridTile28" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(144, 128)
+
+[node name="GridTile29" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(192, 96)
+
+[node name="GridTile30" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(192, -32)
+
+[node name="GridTile32" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(192, -96)
+
+[node name="GridTile49" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(240, -128)
+
+[node name="GridTile50" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(240, 0)
+
+[node name="GridTile51" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(240, 128)
+
+[node name="GridTile52" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(192, 160)
+
+[node name="GridTile53" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(96, 160)
+
+[node name="GridTile54" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(0, 160)
+
+[node name="GridTile55" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-96, 160)
+
+[node name="GridTile56" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-192, 160)
+
+[node name="GridTile31" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(144, -64)
+
+[node name="GridTile21" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(96, 32)
+
+[node name="GridTile22" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(96, -32)
+
+[node name="GridTile26" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(96, -96)
+
+[node name="GridTile23" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(144, 0)
+
+[node name="GridTile24" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(144, 64)
+
+[node name="GridTile25" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(192, 32)
+
+[node name="GridTile2" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(0, -32)
+
+[node name="GridTile3" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(0, -96)
+
+[node name="GridTile5" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(0, 96)
+
+[node name="GridTile6" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-48, 64)
+
+[node name="GridTile9" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-48, 128)
+
+[node name="GridTile10" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-96, 96)
+
+[node name="GridTile11" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-96, 32)
+
+[node name="GridTile12" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-96, -32)
+
+[node name="GridTile13" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-144, 0)
+
+[node name="GridTile14" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-144, 64)
+
+[node name="GridTile15" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-192, 32)
+
+[node name="GridTile42" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-240, 0)
+
+[node name="GridTile48" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-240, -128)
+
+[node name="GridTile43" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-240, 128)
+
+[node name="GridTile38" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-192, 96)
+
+[node name="GridTile39" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-144, 128)
+
+[node name="GridTile34" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-192, -32)
+
+[node name="GridTile35" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-192, -96)
+
+[node name="GridTile44" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-144, -128)
+
+[node name="GridTile58" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-96, -160)
+
+[node name="GridTile59" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(0, -160)
+
+[node name="GridTile60" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(96, -160)
+
+[node name="GridTile61" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(192, -160)
+
+[node name="GridTile57" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-192, -160)
+
+[node name="GridTile45" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-48, -128)
+
+[node name="GridTile46" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(48, -128)
+
+[node name="GridTile47" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(144, -128)
+
+[node name="GridTile36" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-144, -64)
+
+[node name="GridTile37" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-96, -96)
+
+[node name="GridTile7" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-48, -64)
+
+[node name="GridTile8" parent="Grid" instance=ExtResource("2_yqjtg")]
+position = Vector2(-48, 0)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2.2, 2.2)
