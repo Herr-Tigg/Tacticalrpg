@@ -5,7 +5,7 @@
 [node name="GridTile" type="Area2D"]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-polygon = PackedVector2Array(-16, -32, 16, -32, 32, 0, 16, 32, -16, 32, -32, 0)
+polygon = PackedVector2Array(-17, -33, 17, -33, 33, 0, 17, 33, -17, 33, -33, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 self_modulate = Color(1, 1, 1, 0.784314)
